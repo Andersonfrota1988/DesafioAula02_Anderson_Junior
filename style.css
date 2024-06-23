@@ -1,0 +1,50 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #3c3c3c;
+}
+
+
+
+#main{
+    
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.h1{
+    color: #fff;
+}
+
+
+.button{
+
+    padding: 1rem;
+    border-radius: 1rem;
+    border: none;
+    width: 12rem;
+    color: #fff;
+    background-color: #a24b23;
+    cursor: pointer;
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+}
+
+.button:hover{
+    background-color: #a225a2;
+}
+
+.oculto{
+    display: none;
+}
+
+
+
+.botaocontexto{
+    content: "sumiu";
+}
